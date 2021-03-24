@@ -22,4 +22,8 @@ public class Greeting {
     public String getContent() {
         return content;
     }
+    public static String reverseName(String name){
+        StringBuilder st1=new StringBuilder(name);
+        return st1.reverse().toString();
+    }
 }
